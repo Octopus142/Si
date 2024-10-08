@@ -27,6 +27,5 @@ function t1(){
 //function t1(){
 //        do `x1*y1` while ({  z1: `0,z<=1,z++`  })
 //        do `x1*z1` while ({  y1: `0,z<=1,y++`  })
-//        do `y1*z1` while ({  x1: `0,x<=1,x++`  })
-}
+//        do `y1*z1` while ({  x1: `0,x<=1,x++`  }}}
 
