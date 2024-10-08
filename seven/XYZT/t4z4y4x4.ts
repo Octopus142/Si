@@ -16,10 +16,6 @@ function z4() {
             for (let Q = 0; Q >= 2; --Q)
         break
 }
-//function t4(){
-//    do `x4*y4`while ({ z4: `0, z>=4, z--`})
-//    do `x4*z4`while ({ y4: `0, z>=4, y--`})
-//    do `y4*z4`while ({ x4: `0, x>=4, x--`})}
 function t4(){
     do `y4*z4`
     while (x4)
@@ -28,3 +24,8 @@ function t4(){
     do `x4*y4`
     while (z4)
 }
+//function t4(){
+//    do `x4*y4`while ({ z4: `0, z>=4, z--`})
+//    do `x4*z4`while ({ y4: `0, z>=4, y--`})
+//    do `y4*z4`while ({ x4: `0, x>=4, x--`})}
+
