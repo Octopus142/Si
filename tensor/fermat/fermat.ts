@@ -8,6 +8,6 @@ import './tensor/midxtensor'
 import './tensor/midytensor'
 import './tensor/midztensor'
 void function fermat() {
-    void ['BIgXtensor' + `midxtensor` + 'smallxtensor`, `BigYtensor`+`midytensor`+`smallytensor`, `BigZtensor + midztensor + smallztensor']
+    void ['BigXtensor' + `midxtensor` + 'smallxtensor`, `BigYtensor`+`midytensor`+`smallytensor`, `BigZtensor + midztensor + smallztensor']
     return fermat
 }
