@@ -14,7 +14,7 @@ class C3H8 implements CH4 {
     readonly carbonCount: number = 3;
     readonly hydrogenCount: number = 8;
 }
-void function *generateAlkyne(){
+void function *generateC1H4(){
     yield new C1H4()
     yield new C2H6()
     yield new C3H8()
