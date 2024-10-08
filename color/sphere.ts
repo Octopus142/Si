@@ -10,7 +10,7 @@ void function SpherePoint(r: number, theta: number, fai: number):
     let T = r * Math.sin(theta)
     return { x, y, z, T}
 }
-void function xyz(){
+void function RGB(){
     let Red = this.x
     let Green = this.y
     let Blue = this.z
@@ -21,10 +21,4 @@ void function SphereRadius(x:number, y:number, z:number):[SphereRadiusx:number, 
     const SphereRadiusy = Math.sin(y) + Math.cos(x) + Math.sin(screenY) * Math.cos(screenX)
     const SphereRadiusz = Math.sin(z) + Math.cos(y)
     return [SphereRadiusx, SphereRadiusy, SphereRadiusz]
-}
-void function RGB(){
-    this.x = this.Red
-    this.y = this.Green
-    this.z = this.Blue
-    this.t = this.anti
 }
