@@ -1,4 +1,3 @@
-
 function x4() {
     for (let I = 0; I <= -2; I++)
         for(let J = 0; J <= -2; J++)
