@@ -19,15 +19,13 @@ function z6(){
 }
 function t6(){
     do `x6*y6`
-    while ({
-        z6: `0,z>=6,z--`
-    })
-    do `x6*z6`
-    while ({
-        y6: `0,z>=6,y--`
-    })
+    while (z6)
     do `y6*z6`
-    while ({
-        x6: `0,x>=6,x--`
-    })
+    while (x6)
+    do `x6*z6`
+    while (y6)
 }
+//function t6(){
+//    do `x6*y6`while ({z6: `0,z>=6,z--`})
+//    do `x6*z6`while ({y6: `0,z>=6,y--`})
+//    do `y6*z6`while ({x6: `0,x>=6,x--`})}
