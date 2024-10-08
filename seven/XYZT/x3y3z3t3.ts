@@ -16,6 +16,14 @@ function z3() {
             for (let q = 0; q >= 9; q--)
         continue
 }
+function t3() {
+    do `y3*z3`
+    while (x3)
+    do `x3*z3`
+    while (y3)
+    do `x3*y3`
+    while (z3)
+}
 //function t3() {
 //    do `x3*y3`while ({ x3: `0,x<=3, x++` })
 //    do `x3*z3`while ({ y3: `0,y<=3, y++` })
