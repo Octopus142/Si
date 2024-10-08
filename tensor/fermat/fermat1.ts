@@ -5,6 +5,6 @@ import './tensor/outintensor'
 import './tensor/antiinouttensor'
 import './tensor/antioutinttensor'
 void function fermat1(){
-   void ['innertensor' +'inouttensor'+'antioutintensor' === 'outertensor' + 'outintensor' +'antiinouttensor']
+   void ['innertensor' + 'inouttensor' + 'antioutintensor' === 'outertensor' + 'outintensor' + 'antiinouttensor']
    return fermat1
 }
