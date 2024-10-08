@@ -20,16 +20,14 @@ function z5(){
 }
 function t5(){
     do `x5*y5`
-    while ({
-        z5: `0,z>=5,z--`
-    })
-    do `x5*z5`
-    while ({
-        y5: `0,z>=5,y--`
-    })
+    while (z5)
     do `y5*z5`
-    while ({
-        x5: `0,x>=5,x--`
-    })
+    while (x5)
+    do `x5*z5`
+    while (y5)
 }
+//function t5(){
+//    do `x5*y5` while ({ z5: `0,z>=5,z--`})
+//    do `x5*z5` while ({ y5: `0,z>=5,y--`})
+//    do `y5*z5` while ({ x5: `0,x>=5,x--`}}}
 
