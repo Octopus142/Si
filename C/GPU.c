@@ -1,4 +1,4 @@
-#include "Alphabet.c"
+#include "CPU.c"
 void function(){
 const fx1 = 'x^7' + 'w1' * 'x^3' + 'w2' * 'x^2' + 'w3' * 'x' ;
 const fx2 = 'x^7' + "w1' * x^3" - "w2' * x^2" + "w3' * 'x" ;
