@@ -17,12 +17,12 @@ function z1(){
         continue
 }
 function t1(){
-        do `x1*y1`
-        while (z1)
-        do `x1*z1`
-        while (y1)
         do `y1*z1`
         while (x1)
+        do `x1*z1`
+        while (y1)
+        do `y1*x1`
+        while (z1)
 }
 //function t1(){
 //        do `x1*y1` while ({  z1: `0,z<=1,z++`  })
