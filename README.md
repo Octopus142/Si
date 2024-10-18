@@ -1,1 +1,1 @@
-a simple periodic table
+14th element in a simple periodic table
