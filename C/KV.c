@@ -1,4 +1,6 @@
 #include "stdio.h"
+#include "PI.tex"
+#include "E.tex"
 // Define Euler's number (e) to 50 decimal places
 #define E 2.71828182845904523536028747135266249775724709369995
 // Define Pi (π) to 50 decimal places
