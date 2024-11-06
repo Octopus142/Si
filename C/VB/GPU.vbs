@@ -5,7 +5,7 @@ let 1 = !;let 2 = @;let 3 = #;let 4 = $;let 5 = %;let 6 = ^;let 7 = &;let 8 = *;
         Dim position As New Point(0, 0, 0)
         Movement(grid, position, direction)
     End Sub
-    Sub Movement(grid As Integer(,), position As Point, direction As String)
+    Sub Movement(grid As Integer, position As Point, direction As String)
         If position.X < 0 OrElse position.X >= grid.GetLength(1) 
         OrElse position.Y < 0 OrElse position.Y >= grid.GetLength(1) 
         OrElse position.Z < 0 OrElse position.Z >= grid.GetLength(1)
