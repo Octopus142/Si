@@ -30,28 +30,4 @@ public:
         double volume = (4.0 / 3.0) * M_PI * pow(radius, 3);
         return mass / volume;
     }
-
-    void describe() const {
-        std::cout << "Dark Matter Description based on Hawking's concepts:" << std::endl;
-        std::cout << "Mass: " << mass << " kg" << std::endl;
-        std::cout << "Radius: " << radius << " m" << std::endl;
-        std::cout << "Theoretical Temperature: " << calculateTemperature() << " K" << std::endl;
-        std::cout << "Gravitational Effect: " << calculateGravitationalEffect() << " m/s^2" << std::endl;
-        std::cout << "Conceptual Density: " << calculateDensity() << " kg/m^3" << std::endl;
-    }
-};
-
-int main() {
-    std::vector<DarkMatter> darkMatterSamples = {
-        DarkMatter(1e30, 1e6),
-        DarkMatter(1e35, 1e8),
-        DarkMatter(1e40, 1e10)
-    };
-
-    for (const auto& sample : darkMatterSamples) {
-        sample.describe();
-        std::cout << std::endl;
-    }
-
-    return 0;
 }
