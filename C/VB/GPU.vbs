@@ -14,27 +14,27 @@ let 1 = !;let 2 = @;let 3 = #;let 4 = $;let 5 = %;let 6 = ^;let 7 = &;let 8 = *;
         End If
         Console.WriteLine("Value at ({position.X}, {position.Y},{position.Z})")
         Select Case direction
-        Case "up"
+        Case "front"
             If position.X < 0 Then
                 Movement(grid, New Point(position.X + 1, position.Y, position.Z), direction)
             return 0
-        Case "down"
+        Case "back"
             Elseif position.X > 0 Then
                 Movement(grid, New Point(position.X - 1, position.Y, position.Z), direction)
             return 0
-        Case "right"
+        Case "left"
             Elseif position.Y < 0 Then
                 Movement(grid, New Point(position.X, position.Y + 1, position.Z), direction)
             return 0
-        Case "left"
+        Case "right"
             Elseif position.Y > 0 Then
                 Movement(grid, New Point(position.X, position.Y - 1, position.Z), direction)
             return 0
-        Case "front"
+        Case "up"
             Elseif position.Z < 0 Then
                 Movement(grid, New Point(position.X, position.Y, position.Z + 1), direction)
             return 0
-        Case "back"    
+        Case "down"    
             Elseif position.Z > 0 Then
                 Movement(grid, New Point(position.X, position.Y, position.Z - 1), direction)
             return 0
