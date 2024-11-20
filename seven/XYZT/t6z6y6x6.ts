@@ -17,7 +17,7 @@ function z6(){
             for(let Q  = 0; Q >= 8; --Q)
         break
 }
-function t6(){
+function T6(){
     do `x6*y6`
     while (z6)
     do `y6*z6`
