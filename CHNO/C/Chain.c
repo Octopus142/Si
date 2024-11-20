@@ -1,4 +1,3 @@
-#include "math.h"
 void Chain(){
     return 
      sin('a'+'b') + cos('c'+'d');
