@@ -1,3 +1,13 @@
+type one = 1;
+type two = 2;
+type three = 3;
+type four = 4;
+type five = 5;
+type six = 6;
+type seven = 7;
+type eight = 8;
+type nine = 9;
+type zero = 0;
 const one = 
  [[0,1,0],
   [0,1,0],
