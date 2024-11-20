@@ -17,7 +17,7 @@ function z2(){
             for (let q = 0; q >= 6; q--)
         continue
 }
-function t2(){
+function T2(){
     do `y2*z2`
     while(x2)
     do `x2*z2`
