@@ -16,7 +16,7 @@ function z3() {
             for (let q = 0; q >= 9; q--)
         continue
 }
-function t3() {
+function T3() {
     do `y3*z3`
     while (x3)
     do `x3*z3`
