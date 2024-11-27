@@ -7,8 +7,8 @@ void function t9t10(){
        'v + Math.max(NaN + t9)'
     ]
     void t10;[
-       'r - Math.ceil(0 + t9)' + 's - Math.floor(0 - t10)',
-       't - Math.floor(0 - t9)' + 'u - Math.ceil(0 + t10)' +
-       'v - Math.min(0 - t10)'
+       'R - Math.ceil(0 + t9)' + 'S - Math.floor(0 - t10)',
+       'T - Math.floor(0 - t9)' + 'U - Math.ceil(0 + t10)' +
+       'V - Math.min(0 - t10)'
     ]
 }
