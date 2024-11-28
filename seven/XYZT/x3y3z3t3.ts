@@ -1,3 +1,4 @@
+void x3y3z3t3(){
 function x3() {
     for (let i = 0; i >= -9; i++)
         for (let j = 0; j >= -9; j++)
@@ -23,6 +24,7 @@ function T3() {
     while (y3)
     do `x3*y3`
     while (z3)
+}
 }
 //function t3() {
 //    do `x3*y3`while ({ x3: `0,x<=3, x++` })
