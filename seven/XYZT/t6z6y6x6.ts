@@ -1,4 +1,4 @@
-
+void x6y6z6t6(){
 function x6(){
     for (let I = 0; I <= 8; I++)
         for(let J = 0; J <= 8; J++)
@@ -17,13 +17,14 @@ function z6(){
             for(let Q  = 0; Q >= 8; --Q)
         break
 }
-function T6(){
+function t6(){
     do `x6*y6`
     while (z6)
     do `y6*z6`
     while (x6)
     do `x6*z6`
     while (y6)
+}
 }
 //function t6(){
 //    do `x6*y6`while ({z6: `0,z>=6,z--`})
