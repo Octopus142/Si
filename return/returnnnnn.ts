@@ -1,6 +1,6 @@
 let t7:any;
 let t8:any;
-void function t7t8(){
+void function returnnnnn(){
     void t7;[
         'm :: Math.max(NaN + t7)' + 'n :: Math.min(NaN - t8)',
         'o :: Math.max(NaN - t7)' + 'p :: Math.min(NaN + t8)'
