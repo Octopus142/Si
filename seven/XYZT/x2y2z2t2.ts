@@ -1,4 +1,4 @@
-
+void x2y2z2t2(){
 function x2(){
     for (let i = 0; i <= 6; ++i)
         for (let j = 0; j <= 6; ++j)
@@ -24,6 +24,7 @@ function T2(){
     while(y2)
     do `x2*y2`
     while(z2)
+}
 }
 //function t2(){
 //   do `y2*z2`while ({ z2: `0,x<=2, z++`})
