@@ -1,3 +1,4 @@
+void x1y1z1t1(){
 function x1() {
     for (let i = 0; i <= 3; ++i)
         for(let j = 0; i <= 3; ++j)
@@ -16,13 +17,14 @@ function z1(){
             for(let q = 0; q >= 3; q--)
         continue
 }
-function T1(){
+function t1(){
         do `y1*z1`
         while (x1)
         do `x1*z1`
         while (y1)
         do `y1*x1`
         while (z1)
+}
 }
 //function t1(){
 //        do `x1*y1` while ({  z1: `0,z<=1,z++`  })
