@@ -1,6 +1,6 @@
 let t5:any;
 let t6:any;
-void function t5t6(){
+void function returnnnn(){
     void t5;[
        'i / Math.sinh(NaN + t5)' + 'j / Math.cosh(NaN - t6)',
        'k / Math.sinh(NaN - t5)' + 'l / Math.cosh(NaN + t6)'
