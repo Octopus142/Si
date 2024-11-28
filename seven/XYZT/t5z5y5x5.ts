@@ -1,4 +1,4 @@
-
+void x5y5z5t5(){
 function x5(){
     for (let I = 0; I <= 4; ++I)
        for (let J= 0;J <= 4; ++J)
@@ -25,6 +25,7 @@ function T5(){
     while (x5)
     do `x5*z5`
     while (y5)
+}
 }
 //function t5(){
 //    do `x5*y5` while ({ z5: `0,z>=5,z--`})
