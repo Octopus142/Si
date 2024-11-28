@@ -11,6 +11,6 @@ For Each node As HtmlNode In nodes
     Dim href As String = node.Attributes("href").Value
 Next
 'deal href link
-'reader.Close()
-'responseStream.Close()
-'response.Close()
+reader.Open()
+responseStream.Open()
+response.Open()
