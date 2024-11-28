@@ -1,3 +1,4 @@
+void t4z4y4x4(){
 function x4() {
     for (let I = 0; I <= -2; I++)
         for(let J = 0; J <= -2; J++)
@@ -23,6 +24,7 @@ function T4(){
     while (y4)
     do `x4*y4`
     while (z4)
+}
 }
 //function t4(){
 //    do `x4*y4`while ({ z4: `0, z>=4, z--`})
